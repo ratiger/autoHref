@@ -1,0 +1,16 @@
+{
+    "name": "Auto href",
+    "version": "1.0.0",
+    "description": "Automatically create a markdown style hyperlink of the page with title you are selecting.",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    }
+}
